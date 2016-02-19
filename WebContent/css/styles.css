@@ -1,0 +1,448 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image:url("../images/patterns/loginPattern.png");
+	background-repeat:repeat;	
+	margin:0;
+}
+
+#tableLogin{
+	box-shadow: 10px 10px 5px #888888;
+	position: absolute;
+  	left: 50%;
+ 	top: 50%;
+ 	transform: translate(-50%, -50%); /* Yep! */
+ 	width: 300px;
+  	height: 200px;
+	background-color:#FFF;
+	border-style: solid;
+    border-width: 1px;
+}
+
+.windowHeading {
+	background-image:url(../images/patterns/header.png);
+	background-repeat:repeat-x;
+	color:white;
+}
+
+.error {
+	border-radius:5px;
+	background:#FDD;
+	border: 2px solid red;
+	visibility:hidden;
+	text-align:center;
+	width:auto;
+}
+
+#headerDiv {
+	background-image:url(../images/patterns/header.png);
+	background-repeat:repeat;
+	width:100%;
+	height:120px;	
+    top:0;
+	z-index:120;
+
+}
+
+#headerDiv #headerInfoDiv{
+	float:right;
+	/*font-weight:bold;*/
+	color:white;
+	padding-right:10px;
+	font-size: small;
+	padding-top: 25px;
+}
+
+#headerDiv #headerInfoDiv table {
+	vertical-align: text-bottom;
+}
+
+#menuDivSplit {
+	background-image:url(../images/patterns/heading-1.jpg);
+	background-repeat:repeat;
+	width:100%;
+	height:10px;	
+}
+
+.avatarHeader {
+	width: 20%;
+	height: 20%;	
+	text-align: right;
+}
+
+a {
+	color:rgb(162,215,233) !important;
+}
+
+#footerDiv {
+	background-image:url(../images/patterns/header.png);
+	background-repeat:repeat;
+	width:100%;
+	height:30px;	
+	float: left;
+}
+
+#shoppingCartImage {
+	width:27%;
+	height: 27%;	
+}
+.salonsHeadingDiv {
+	font-size: xx-large;
+	background-image: url(../images/patterns/heading-1.jpg);
+	background-repeat: repeat;
+	color:white;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#salonsPathDiv{
+	/*border-bottom: solid #09C 1px;*/
+	font-size: large;
+	margin-left: 15px;
+	padding-top: 10px;
+}
+
+#salonDiv{
+	display: none;
+}
+
+#salonName{
+	font-size: large;
+}
+
+
+#salonItemsDiv{
+	height: auto;
+	width: 100%;
+}
+
+#salonItemsDiv div{
+	float: left;
+}
+
+#urlIconHome{
+	vertical-align: bottom;
+}
+
+.salonItem {
+	height: auto;
+	width: 100%;
+	margin-left: 15px;
+	margin-right: 15px;
+	border-top: grey solid 1px;
+	border-bottom: grey solid 1px;
+	margin-top: 10px; 
+}
+
+.salonItem{
+	/*background-color: rgba(231, 255, 0, 0.21);*/
+	background-image:url("../images/linen.png");
+	/*color: white;*/
+	padding-right: 20px;
+}
+
+.salonItem:hover{
+	/*background-image:url("../images/linenColorized.png");*/
+	-moz-box-shadow: 0px 0px 15px #0099ff;
+    -webkit-box-shadow: 0px 0px 15px #0099ff;
+    box-shadow: 0px 0px 15px #0099ff;
+}
+
+.salonItemPic{
+	width: 310px;
+	height: auto;
+}
+
+.salonItemTitleDesc {
+	width: 15%;
+}
+
+.salonItemTitle{
+	margin-bottom: 10px;
+}
+
+.salonItemSpec{
+	/*width: 22%;*/
+	text-align: right;
+	padding-left: 70px;
+	padding-top: 35px;
+}
+
+.salonItemBuy{
+	height: 250px;
+	width: 20%;
+	border-left: rgba(128, 128, 128, 0.32) solid;
+	float: right !important; 
+	padding-right: 10px;
+	
+}
+
+.specTable {
+	border: solid 3px;
+	border-color: white;
+}
+
+img.salonItemPicture {
+	width: 300px;
+	height: 250px;	
+}
+
+.dashboardDiv {
+	background-color: rgba(174, 224, 255, 0.16);
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 20px;
+	overflow: auto;
+}
+
+.dashboardButtonDiv{
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	float: right;
+	
+}
+.dashboardButtonDiv img{
+	width: 70px;
+	height: 70px;
+}
+
+.dashboardBodyItem{
+	display: none;
+	padding-top: 10px;
+	float: right;
+	margin-right: 20px;
+	padding-right: 20%;
+	border-right: 1px solid;
+	border-right-color: lightgrey;
+}
+.dashboardBodyItem th{
+	text-align: right;
+}
+
+.dashboardBodyItem table {
+	background-color: snow;
+}
+
+.dashboardBodyItem table input[type='text'] {
+	width: 100%;
+}
+
+.tableItemPrice{
+	width: 100%;
+}
+
+.editFurnitureItem{
+	float: left;
+}
+
+textarea {		/* za opis elementa */
+    white-space: normal;
+    text-align: justify;
+}
+
+.itemDescription {
+	text-align: justify;
+	/*background-image:url("../images/textPattern.bmp");*/
+	width: 230px;
+	height: 80px;
+	background-color: rgba(158, 211, 229, 0.14);
+	/*color: white;*/
+}
+
+.amountItemsInput{
+	width: 50px;
+	margin-right: 20px;
+}
+
+.buyButton{
+	margin-top: 10px;
+}
+
+.buyCell {
+	border: none;
+}
+
+.actionDiv {
+	width: 100%;
+	background-color: white;
+	padding: 5px;
+	display: none;
+}
+
+.actionDiv input {
+	width: 80px;
+}
+.lowedPriceCell {
+	color:green;
+}
+.discountRow {
+	/*display: none;*/
+}
+td.itemPriceValue {
+	width: 140px;
+}
+td.discountRow{
+	width: 140px;
+}
+td.itemPriceValue h1 {
+	float:left;
+}
+td.lowedPriceCell h1 {
+	float:left;
+}
+
+.salonItem button {
+	margin-right: 5px;
+}
+
+h2.subtitle {
+	margin: 15px;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+div#searchDiv {
+	display: flex;
+    float: right;
+    height: 100%;
+	margin-right: 18px;
+}
+
+#additionalServSelect{
+	display: none;
+}
+
+#footerDiv{
+	line-height: 30px;
+	text-align: right;
+	color: white;
+	padding-right: 15px;	
+}
+#addFurnitureDiv span {
+	display: block;
+}
+#addFurnitureDiv textarea {
+	display: block;
+}
+#addFurnitureDiv table tr td{
+	vertical-align: top;
+}
+#addFurnitureDiv table tr td button {
+	display: block;
+	margin-bottom: 5px;
+}
+#addFurnitureDiv table tr td input {
+	margin-top: 5px;
+}
+#addFurnitureDiv table tr td .addMediaDiv {
+	margin-top: 8px;
+}
+.addMediaDiv {
+	display: none;
+}
+#addFurnitureBtn {
+	margin-top: 10px;
+}
+#descTextBox {
+	margin-bottom: 5px;
+}
+.salonItemVid{
+	height: 250px;
+	width: 300;
+	display: block;
+	float: left;
+}
+.salonItemSmallPicture{
+	width: 150px;
+	height: 100px;
+}
+.salonItemSmallPic{
+    position: absolute;
+    top: 150px;
+    margin-left: 10px;
+}
+.smallPicHolder {
+	height: 100%;
+    position: relative;
+}
+.salonItemVidEdit{
+	position: absolute;
+}
+.salonItemVidEdit input {
+	width: 300px;
+}
+.mediaEditDiv{
+	border: 1px solid;
+	width: 100%;
+	margin-left: 15px;
+}
+.mediaEditDiv input{
+	width: 300px;
+}
+.editMedia {
+	display: none;
+	height: 40px;
+}
+.additionalServiceDescription {
+	width: 600px;
+	height: 150px;
+	text-align: justify;
+	margin-top: 15px;
+	background-color: rgba(158, 211, 229, 0.14);
+}
+.additionalServiceTitle {
+	width: 500px;
+}
+
+.editAdditionalServiceBtn{
+	float: right;
+	margin-right: 100px !important;
+}
+.addServAmount {
+	visibility: hidden; 
+}
+#addASWrapperDiv {
+	display: none;
+    width: 50%;
+    margin: 0 auto;
+}
+#addFIWrapperDiv {
+	display: none;
+}
+.furnitureBtn, .additionalServicesBtn {
+	display:none;
+}
+.priceRangeInput {
+	width: 50px;
+}
+#fromToPriceDiv,#ascDescSelect{
+	display: none;
+}
+#billTableDiv{
+	width: 50%;
+	margin: 0 auto;
+}
+#billTableDiv table {
+	background-color: white;
+}
+#finishShoppingLink{
+	display: none;
+}
+#billWrapperDiv{
+	display: none;
+}
+#reportWrapper {
+	background-color: white;
+}
+#innerReportWrapper{
+	width: 50%;
+	margin: 0 auto;
+}
+#reportCategorySelect {
+	/*visibility: hidden;*/
+}
+#dashboardContent5{
+	display: none;
+}
