@@ -14,11 +14,11 @@ Implementing furniture saloon furniture web shop. Roles are admin, manager and b
 ### Screenshots:
 - Login page: <br />
  ![Login page](/screenshots/login.png?raw=true "Login page")
-- Entering saloon: <br />
+- Home Page - Admin: <br />
  ![Home Page - Admin](/screenshots/home-admin.png?raw=true "Home Page - Admin")
-- Adding new furniture item: <br />
+- Entering saloon: <br />
  ![Entering saloon](/screenshots/saloon-click.png?raw=true "Entering saloon")
-- Home page - Admin: <br />
+- Adding new furniture item: <br />
 ![Adding new furniture item](/screenshots/saloon-add-new.png?raw=true "Adding new furniture item")
 - Inline editing furiniture: <br />
 ![Inline editing furiniture](/screenshots/saloon-furniture-edit.png?raw=true "Inline editing furiniture")
