@@ -9,7 +9,7 @@
 Implementing furniture saloon furniture web shop. Roles are admin, manager and buyer. Each role has it's own privileges for an example:
   - admin > add, edit, remove saloons and furnitures. Setting action on a piece of furniture or the whole saloon's furnitures.
   - manager > Setting action on a piece of furniture or the whole saloon's furnitures.
-  - buyer > buying one, or more products in a shopping cart. 
+  - buyer > buying one, or more products and, adding to a shopping cart. 
 
 ### Screenshots:
 - Login page: <br />
